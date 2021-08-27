@@ -1,4 +1,7 @@
 from funcs.modulos import *
+import PIL # importa o PIL
+from PIL import Image, ImageTk, ImageSequence
+
 
 class ImagensBase64:
     def images_base64(self):

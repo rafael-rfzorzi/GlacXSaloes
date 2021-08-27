@@ -159,7 +159,7 @@ class Functions:
         messagebox.showinfo("GLAC - Orçamento", msg)
     def buscanomeorc(self):
         self.listaNomeO.insert(END, '%')
-        self.listaServ.delete((*self.listaServ.get_children()))
+        self.listaServ.delete(*self.listaServ.get_children())
 
         nomeO = self.listaNomeO.get()
 
